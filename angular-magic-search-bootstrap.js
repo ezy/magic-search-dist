@@ -14,7 +14,7 @@ angular.module('MagicSearch', ['ui.bootstrap'])
                 };
                 $scope.isMenuOpen = false;
 
-                // remove the following when magic_search.js handles changing the facets/options
+                // remove the following when magic-search.js handles changing the facets/options
                 $scope.$watch('facets_json', function(newVal, oldVal) {
                     if (newVal === oldVal) {
                         return;
